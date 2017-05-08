@@ -1,0 +1,11 @@
+*.log
+*.csv
+*.out
+*.gz
+
+pids
+logs
+
+output
+input
+node_modules

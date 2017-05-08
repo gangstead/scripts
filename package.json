@@ -1,0 +1,33 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "random utility scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangstead/scripts.git"
+  },
+  "author": "gangstead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gangstead/scripts/issues"
+  },
+  "homepage": "https://github.com/gangstead/scripts#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "commander": "^2.9.0",
+    "fast-csv": "^2.4.0",
+    "fs-extra": "^3.0.1",
+    "license-checker": "^9.0.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-vinli": "^5.4.2",
+    "eslint-plugin-mocha": "^4.9.0",
+    "mocha": "^3.3.0"
+  }
+}
